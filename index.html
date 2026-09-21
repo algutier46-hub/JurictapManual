@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Jurictap - Manual Técnico</title>
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; margin:0; padding:0; background:#0d1b2a; color:#fff; }
+    header { background:#1a3d7c; padding:30px; text-align:center; }
+    nav { background:#14213d; padding:15px; text-align:center; }
+    nav a { margin:0 15px; text-decoration:none; color:#fca311; font-weight:bold; }
+    section { max-width:900px; margin:20px auto; padding:20px; background:#1a1a1a; border-radius:12px; }
+    h2 { color:#fca311; }
+    .modulo { background:#14213d; margin:20px 0; padding:20px; border-radius:10px; }
+    .procedimiento { background:#1a3d7c; padding:10px; border-radius:8px; margin-bottom:15px; }
+    .pasos { background:#0d1b2a; padding:15px; border-radius:8px; }
+    .pasos li { margin:10px 0; }
+    .boton { display:inline-block; background:#fca311; color:#000; padding:6px 12px; border-radius:6px; font-weight:bold; }
+    footer { background:#0d1b2a; color:white; text-align:center; padding:20px; margin-top:30px; }
+  </style>
+</head>
+<body>
+  <!-- Portada -->
+  <header>
+    <h1>Jurictap</h1>
+    <p>Manual Técnico de Funcionamiento</p>
+    <p>Integrantes: Alexander Gutierrez · Daniel Sandoval · Grey Cuellar</p>
+    <p>Programa: tecnologo de desarrollo de software </p>
+    <p>Fecha: Septiembre 2026</p>
+  </header>
+
+  <nav>
+    <a href="#presentacion">Presentación</a>
+    <a href="#componentes">Componentes</a>
+    <a href="#funcionamiento">Funcionamiento</a>
+    <a href="#modulos">Módulos</a>
+    <a href="#problemas">Problemas</a>
+    <a href="#faq">Preguntas Frecuentes</a>
+    <a href="#conclusion">Conclusión</a>
+    <a href="#equipo">Equipo</a>
+  </nav>
+
+  <!-- Presentación -->
+  <section id="presentacion">
+    <h2>Presentación del Proyecto</h2>
+    <p><strong>¿Qué es Jurictap?</strong> Es una plataforma digital para asesoría jurídica, gestión de citas, documentos y pagos.</p>
+    <p><strong>Propósito:</strong> Facilitar el acceso a la justicia mediante herramientas tecnológicas seguras y fáciles de usar.</p>
+    <p><strong>Problema que soluciona:</strong> La falta de un sistema accesible y organizado para personas de bajos recursos que necesitan orientación legal.</p>
+  </section>
+
+  <!-- Componentes -->
+  <section id="componentes">
+    <h2>Componentes o Elementos</h2>
+    <ul>
+      <li><strong>Frontend:</strong> HTML5, CSS3, JavaScript – interfaz visual.</li>
+      <li><strong>Backend:</strong> Java – lógica de negocio.</li>
+      <li><strong>Base de datos:</strong> MySQL – almacenamiento de usuarios, citas y documentos.</li>
+      <li><strong>Roles:</strong> Cliente, Abogado, Pasante, Administrador.</li>
+      <li><strong>Recursos:</strong> Computador, internet, navegador web.</li>
+    </ul>
+  </section>
+
+  <!-- Funcionamiento -->
+  <section id="funcionamiento">
+    <h2>Funcionamiento</h2>
+    <p>El proyecto funciona de manera secuencial:</p>
+    <ol>
+      <li>Registro e inicio de sesión.</li>
+      <li>Selección de rol.</li>
+      <li>Acceso al panel correspondiente.</li>
+      <li>Gestión de citas y documentos.</li>
+      <li>Pagos y seguimiento de procesos.</li>
+      <li>Valoración y verificación de asesores.</li>
+    </ol>
+  </section>
+
+  <!-- Módulos -->
+  <section id="modulos">
+    <h2>Módulos Principales</h2>
+    <div class="modulo"><h2>Módulo 1 - Registro</h2><div class="procedimiento"><p>Crear cuenta en Jurictap.</p></div><div class="pasos"><ol><li>Selecciona <span class="boton">Registro</span></li><li>Ingresa datos personales</li><li>Completa con <span class="boton">Crear perfil</span></li></ol></div></div>
+    <div class="modulo"><h2>Módulo 2 - Inicio de Sesión</h2><div class="procedimiento"><p>Accede a tu cuenta.</p></div><div class="pasos"><ol><li>Selecciona <span class="boton">Iniciar sesión</span></li><li>Introduce credenciales</li><li>Accede con <span class="boton">Ingresar</span></li></ol></div></div>
+    <div class="modulo"><h2>Módulo 3 - Perfil Jurídico</h2><div class="procedimiento"><p>Visualiza y actualiza tu perfil.</p></div><div class="pasos"><ol><li>Accede a <span class="boton">Mi perfil</span></li><li>Actualiza información</li><li>Guarda con <span class="boton">Guardar</span></li></ol></div></div>
+    <div class="modulo"><h2>Módulo 4 - Orientación Jurídica</h2><div class="procedimiento"><p>Recibe orientación inicial.</p></div><div class="pasos"><ol><li>Enviar consulta</li><li>Ver orientación</li></ol></div></div>
+    <div class="modulo"><h2>Módulo 5 - Conexión con Asesores</h2><div class="procedimiento"><p>Comunícate con asesores.</p></div><div class="pasos"><ol><li>Seleccionar asesor</li><li>Iniciar llamada</li><li>Enviar mensaje</li></ol></div></div>
+    <div class="modulo"><h2>Módulo 6 - Citas</h2><div class="procedimiento"><p>Programa y consulta citas.</p></div><div class="pasos"><ol><li>Agendar cita</li><li>Confirmar cita</li><li>Ver detalle</li></ol></div></div>
+    <div class="modulo"><h2>Módulo 7 - Documentos</h2><div class="procedimiento"><p>Adjunta y organiza documentos.</p></div><div class="pasos"><ol><li>Subir documento</li><li>Confirmar</li><li>Ver documentos</li></ol></div></div>
+    <div class="modulo"><h2>Módulo 8 - Pagos</h2><div class="procedimiento"><p>Realiza pagos.</p></div><div class="pasos"><ol><li>Seleccionar servicio</li><li>Pagar ahora</li><li>Continuar</li></ol></div></div>
+    <div class="modulo"><h2>Módulo 9 - Seguimiento</h2><div class="procedimiento"><p>Consulta estado de procesos.</p></div><div class="pasos"><ol><li>Acceder al proceso</li><li>Seleccionar seguimiento</li><li>Ver estado</li></ol></div></div>
+    <div class="modulo"><h2>Módulo 10 - Valoración</h2><div class="procedimiento"><p>Califica la asesoría.</p></div><div class="pasos"><ol><li>Seleccionar estrellas ★ ★ ★ ★ ☆</li><li>Enviar calificación</li></ol></div></div>
+    <div class="modulo"><h2>Módulo 11 - Información Jurídica</h2><div class="procedimiento"><p>Consulta base de datos jurídica.</p></div><div class="pasos"><ol><li>Acceder a consulta</li><li>Buscar ley o término</li><li>Ver resultados</li></ol></div></div>
+    <div class="modulo"><h2>Módulo 12 - Verificación</h2><div class="procedimiento"><p>Valida credenciales de asesores.</p></div><div class="pasos"><ol>
+      <!-- Solución de Problemas -->
+<section id="problemas">
+  <h2>Solución de Problemas</h2>
+
+  <div class="modulo">
+    <h2>Problema 1 - No puedo iniciar sesión</h2>
+    <div class="procedimiento"><p>El sistema rechaza las credenciales.</p></div>
+    <div class="pasos">
+      <ol>
+        <li>Verifica que el correo y la contraseña estén escritos correctamente.</li>
+        <li>Si olvidaste la contraseña, usa la opción <span class="boton">Recuperar contraseña</span>.</li>
+        <li>Si el problema persiste, contacta soporte técnico.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="modulo">
+    <h2>Problema 2 - No se guardan las citas</h2>
+    <div class="procedimiento"><p>El sistema no confirma la cita.</p></div>
+    <div class="pasos">
+      <ol>
+        <li>Revisa que hayas seleccionado fecha y hora válidas.</li>
+        <li>Confirma la cita con el botón <span class="boton">Confirmar cita</span>.</li>
+        <li>Verifica en la sección <span class="boton">Agenda</span> si aparece registrada.</li>
+      </ol>
+    </div>
+  </div>
+
+  <div class="modulo">
+    <h2>Problema 3 - No se cargan documentos</h2>
+    <div class="procedimiento"><p>El archivo no aparece en la carpeta digital.</p></div>
+    <div class="pasos">
+      <ol>
+        <li>Verifica que el archivo esté en formato permitido (PDF, DOCX, JPG).</li>
+        <li>Usa el botón <span class="boton">Subir documento</span>.</li>
+        <li>Confirma con <span class="boton">Guardar</span> y revisa en <span class="boton">Ver documentos</span>.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- Preguntas Frecuentes -->
+<section id="faq">
+  <h2>Preguntas Frecuentes</h2>
+  <div class="modulo">
+    <h2>¿Necesito pagar para usar Jurictap?</h2>
+    <p>El registro es gratuito. Algunos servicios especializados requieren pago.</p>
+  </div>
+  <div class="modulo">
+    <h2>¿Puedo acceder desde el celular?</h2>
+    <p>Sí, la plataforma funciona en cualquier dispositivo con navegador e internet.</p>
+  </div>
+  <div class="modulo">
+    <h2>¿Qué pasa si olvido mi contraseña?</h2>
+    <p>Usa la opción <span class="boton">Recuperar contraseña</span> en la pantalla de inicio de sesión.</p>
+  </div>
+</section>
+<!-- Conclusión -->
+<section id="conclusion">
+  <h2>Conclusión</h2>
+  <div class="modulo">
+    <h2>¿Qué herramienta digital utilizaron?</h2>
+    <p>Se utilizó <strong>HTML y CSS</strong> como herramienta digital principal, porque permite estructurar el manual en forma de página web clara, visual y accesible.</p>
+  </div>
+
+  <div class="modulo">
+    <h2>¿Por qué eligieron esa herramienta?</h2>
+    <p>La elegimos porque es sencilla de usar, se abre en cualquier computador con un navegador, no requiere programas costosos y facilita la integración de textos, diagramas e imágenes.</p>
+  </div>
+
+  <div class="modulo">
+    <h2>¿Cómo organizaron el manual?</h2>
+    <p>El manual se organizó en secciones: Portada, Presentación, Componentes, Funcionamiento, 12 módulos explicados, Solución de problemas, Preguntas frecuentes, Conclusión y Equipo de trabajo.</p>
+  </div>
+
+  <div class="modulo">
+    <h2>¿Cuál es el procedimiento principal de funcionamiento?</h2>
+    <p>El procedimiento principal es el <strong>registro e inicio de sesión</strong>, seguido de la gestión de citas y documentos legales, que son la base del sistema.</p>
+  </div>
+
+  <div class="modulo">
+    <h2>¿Qué parte del manual consideran más importante?</h2>
+    <p>La parte más importante es la de <strong>Funcionamiento y Módulos</strong>, porque explica paso a paso cómo usar Jurictap y permite a cualquier persona comprender y aprovechar la herramienta.</p>
+  </div>
+</section>
+<!-- Equipo de Trabajo -->
+<section id="equipo">
+  <h2>Equipo de Trabajo</h2>
+  <div class="modulo">
+    <h2>Alexander Gutierrez</h2>
+    <p>Responsable del desarrollo de los módulos de acceso y perfil de usuario.</p>
+  </div>
+  <div class="modulo">
+    <h2>Daniel Sandoval</h2>
+    <p>Encargado de la implementación de orientación jurídica, conexión con asesores y gestión de citas.</p>
+  </div>
+  <div class="modulo">
+    <h2>Grey Cuellar</h2>
+    <p>Responsable de la gestión de documentación, pagos, seguimiento de procesos y verificación de asesores.</p>
+  </div>
+</section>
+
+
+
+
